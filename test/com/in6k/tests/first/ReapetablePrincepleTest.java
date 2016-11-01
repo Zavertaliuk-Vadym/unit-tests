@@ -11,7 +11,7 @@ import java.nio.file.Paths;
 public class ReapetablePrincepleTest {
     @Test
     public void createFile() throws Exception {
-        Path path = Paths.get("/Users/alexander/testfile.txt");
+        Path path = Paths.get(System.getProperty("/Users/alexander/")+"testFile.txt");
         File file = path.toFile();
 
         boolean created = file.createNewFile();
