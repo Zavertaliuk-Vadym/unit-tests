@@ -24,7 +24,7 @@ public class BaseAssertionsTest {
     public void assertDoublePrecision() throws Exception {
         float expected = 0.005f;
         float actual = 1.435f - 1.43f;
-        float delta = 0.0001f;
+        float delta = 0.00000001f;
         assertEquals(expected, actual, delta);
     }
 
