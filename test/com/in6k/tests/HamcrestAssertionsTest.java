@@ -25,7 +25,7 @@ public class HamcrestAssertionsTest {
 
     @Test
     public void severalItemsInCollection() throws Exception {
-        assertThat(Arrays.asList(1, 2, 3), hasItems(1, 3));
+        assertThat(Arrays.asList(1, 2, 3), hasItems(1,2,3));
     }
 
     @Test
