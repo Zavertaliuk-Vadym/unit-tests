@@ -1,12 +1,12 @@
 package com.in6k.tests.first;
 
-        import static org.junit.Assert.*;
+import static org.junit.Assert.*;
 
-        import org.junit.Test;
+import org.junit.Test;
 
-        import java.io.File;
-        import java.nio.file.Path;
-        import java.nio.file.Paths;
+import java.io.File;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class ReapetablePrincepleTest {
     @Test

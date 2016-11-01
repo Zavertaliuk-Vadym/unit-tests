@@ -2,6 +2,7 @@ package com.in6k.tests;
 
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.junit.Assert.*;
+
 import org.junit.Test;
 
 public class BaseAssertionsTest {
