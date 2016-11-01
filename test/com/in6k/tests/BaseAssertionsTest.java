@@ -35,6 +35,6 @@ public class BaseAssertionsTest {
 
     @Test
     public void assertNullValue() throws Exception {
-        assertNotNull("Sorry, NULL is not allowed.",notNullValue());
+        assertNotNull("Sorry, NULL is not allowed.", notNullValue());
     }
 }
